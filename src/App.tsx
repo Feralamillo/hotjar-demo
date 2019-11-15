@@ -7,19 +7,21 @@ import { Blog } from "./pages/blog";
 import { Contact } from "./pages/contact";
 import { Post } from "./pages/post";
 
-import "./App.css";
+import "./css/bootstrap.min.css";
+import "./css/font-awesome.min.css";
+import "./css/owl.carousel.css";
+import "./css/style.css";
+import "./css/themify-icons.css";
 
 const App: React.FC = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/blog" exact component={Blog} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/post" component={Post} />
-      </BrowserRouter>
-    </div>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Route path="/about" component={About} />
+      <Route path="/blog" exact component={Blog} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/post" component={Post} />
+      <Route path="/" exact component={Home} />
+    </BrowserRouter>
   );
 };
 
