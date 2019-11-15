@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eed33731ace0e62180e379ee38e8a8d2",
+    "revision": "3abba3c9b393c6b6ec44b44688ef0bd4",
     "url": "/hotjar-demo/index.html"
   },
   {
-    "revision": "de2007e50c2008c9c612",
+    "revision": "2a854d3213408acbc577",
     "url": "/hotjar-demo/static/css/main.dfca195d.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hotjar-demo/static/js/2.78f477bd.chunk.js"
   },
   {
-    "revision": "de2007e50c2008c9c612",
-    "url": "/hotjar-demo/static/js/main.b2301682.chunk.js"
+    "revision": "2a854d3213408acbc577",
+    "url": "/hotjar-demo/static/js/main.f774076d.chunk.js"
   },
   {
     "revision": "515d610db37d222fa180",
