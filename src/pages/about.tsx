@@ -1,4 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Header } from './shared/header';
 import { Footer } from './shared/footer';
@@ -12,7 +14,7 @@ export const About: React.FunctionComponent = () => {
         <div className="container">
           <h2>About Us</h2>
           <div className="site-beradcamb">
-            <a href="">Home</a>
+            <Link to="/">Home</Link>
             <span>
               <i className="fa fa-angle-right" /> About Us
             </span>
@@ -31,9 +33,9 @@ export const About: React.FunctionComponent = () => {
                 amount of money with anyone else, anywhere on the planet, conveniently and without restriction. It’s the dawn of a better, more free
                 world.
               </p>
-              <a href="" className="site-btn sb-gradients sbg-line mt-5">
+              <Link to="/" className="site-btn sb-gradients sbg-line mt-5">
                 Get Started
-              </a>
+              </Link>
             </div>
           </div>
           <div className="about-img">
@@ -92,15 +94,15 @@ export const About: React.FunctionComponent = () => {
               <span>Business Development</span>
             </div>
             <div className="member-social">
-              <a href="">
+              <Link to="/">
                 <i className="fa fa-facebook" />
-              </a>
-              <a href="">
+              </Link>
+              <Link to="/">
                 <i className="fa fa-linkedin" />
-              </a>
-              <a href="">
+              </Link>
+              <Link to="/">
                 <i className="fa fa-twitter" />
-              </a>
+              </Link>
             </div>
             <div className="member-info">
               <div className="member-img mf set-bg" data-setbg="img/member/1.jpg" />
@@ -121,15 +123,15 @@ export const About: React.FunctionComponent = () => {
               <span>Business Development</span>
             </div>
             <div className="member-social">
-              <a href="">
+              <Link to="/">
                 <i className="fa fa-facebook" />
-              </a>
-              <a href="">
+              </Link>
+              <Link to="/">
                 <i className="fa fa-linkedin" />
-              </a>
-              <a href="">
+              </Link>
+              <Link to="/">
                 <i className="fa fa-twitter" />
-              </a>
+              </Link>
             </div>
             <div className="member-info">
               <div className="member-img mf set-bg" data-setbg="img/member/2.jpg" />
@@ -150,15 +152,15 @@ export const About: React.FunctionComponent = () => {
               <span>Business Development</span>
             </div>
             <div className="member-social">
-              <a href="">
+              <Link to="/">
                 <i className="fa fa-facebook" />
-              </a>
-              <a href="">
+              </Link>
+              <Link to="/">
                 <i className="fa fa-linkedin" />
-              </a>
-              <a href="">
+              </Link>
+              <Link to="/">
                 <i className="fa fa-twitter" />
-              </a>
+              </Link>
             </div>
             <div className="member-info">
               <div className="member-img mf set-bg" data-setbg="img/member/3.jpg" />
@@ -179,15 +181,15 @@ export const About: React.FunctionComponent = () => {
               <span>Product Manager</span>
             </div>
             <div className="member-social">
-              <a href="">
+              <Link to="/">
                 <i className="fa fa-facebook" />
-              </a>
-              <a href="">
+              </Link>
+              <Link to="/">
                 <i className="fa fa-linkedin" />
-              </a>
-              <a href="">
+              </Link>
+              <Link to="/">
                 <i className="fa fa-twitter" />
-              </a>
+              </Link>
             </div>
             <div className="member-info">
               <div className="member-img mf set-bg" data-setbg="img/member/4.jpg" />
@@ -208,15 +210,15 @@ export const About: React.FunctionComponent = () => {
               <span>Head of Design</span>
             </div>
             <div className="member-social">
-              <a href="">
+              <Link to="/">
                 <i className="fa fa-facebook" />
-              </a>
-              <a href="">
+              </Link>
+              <Link to="/">
                 <i className="fa fa-linkedin" />
-              </a>
-              <a href="">
+              </Link>
+              <Link to="/">
                 <i className="fa fa-twitter" />
-              </a>
+              </Link>
             </div>
             <div className="member-info">
               <div className="member-img mf set-bg" data-setbg="img/member/5.jpg" />
