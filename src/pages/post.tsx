@@ -1,10 +1,12 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import React from 'react';
 import { Header } from './shared/header';
 import { Footer } from './shared/footer';
 
 export const Post: React.FunctionComponent = () => {
   return (
-    <React.Fragment>
+    <>
       <Header />
 
       <section className="page-info-section">
@@ -166,7 +168,7 @@ export const Post: React.FunctionComponent = () => {
                     <ul className="comment-list">
                       <li>
                         <div className="comment">
-                          <div className="comment-avator set-bg" data-setbg="img/blog/comment/1.jpg"></div>
+                          <div className="comment-avator set-bg" data-setbg="img/blog/comment/1.jpg" />
                           <div className="comment-content">
                             <h5>
                               Kelly Richardson<span>, 24 Mar 2018</span>
@@ -186,7 +188,7 @@ export const Post: React.FunctionComponent = () => {
                         <ul className="replay-comment-list">
                           <li>
                             <div className="comment">
-                              <div className="comment-avator set-bg" data-setbg="img/blog/comment/2.jpg"></div>
+                              <div className="comment-avator set-bg" data-setbg="img/blog/comment/2.jpg" />
                               <div className="comment-content">
                                 <h5>
                                   Gordon Browns<span>, 24 Mar 2018</span>
@@ -208,7 +210,7 @@ export const Post: React.FunctionComponent = () => {
                       </li>
                       <li>
                         <div className="comment">
-                          <div className="comment-avator set-bg" data-setbg="img/blog/comment/3.jpg"></div>
+                          <div className="comment-avator set-bg" data-setbg="img/blog/comment/3.jpg" />
                           <div className="comment-content">
                             <h5>
                               Scott Langton<span>, 24 Mar 2018</span>
@@ -232,19 +234,19 @@ export const Post: React.FunctionComponent = () => {
                     <form className="comment-form">
                       <div className="form-group">
                         <input type="text" placeholder="Your name *:" />
-                        <label></label>
+                        <label />
                       </div>
                       <div className="form-group">
                         <input type="email" placeholder="Your email *:" />
-                        <label></label>
+                        <label />
                       </div>
                       <div className="form-group">
                         <input type="text" placeholder="Your Phone *:" />
-                        <label></label>
+                        <label />
                       </div>
                       <div className="form-group clearfix">
-                        <textarea placeholder="Your comment"></textarea>
-                        <label></label>
+                        <textarea placeholder="Your comment" />
+                        <label />
                       </div>
                       <button className="site-btn sb-gradients no-radius mt-3">Submit Now</button>
                     </form>
@@ -369,6 +371,6 @@ export const Post: React.FunctionComponent = () => {
         </div>
       </section>
       <Footer />
-    </React.Fragment>
+    </>
   );
 };

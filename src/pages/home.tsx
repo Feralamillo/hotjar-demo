@@ -203,7 +203,7 @@ export const Home: React.FunctionComponent = () => {
         <div className="team-members clearfix">
           <div className="member">
             <div className="member-text">
-              <div className="member-img set-bg" data-setbg="img/member/1.jpg"></div>
+              <div className="member-img set-bg" data-setbg="img/member/1.jpg" />
               <h2>Tom Binegar</h2>
               <span>Business Development</span>
             </div>
@@ -219,7 +219,7 @@ export const Home: React.FunctionComponent = () => {
               </a>
             </div>
             <div className="member-info">
-              <div className="member-img mf set-bg" data-setbg="img/member/1.jpg"></div>
+              <div className="member-img mf set-bg" data-setbg="img/member/1.jpg" />
               <div className="member-meta">
                 <h2>Tom Binegar</h2>
                 <span>Marketing Director</span>
@@ -232,7 +232,7 @@ export const Home: React.FunctionComponent = () => {
           </div>
           <div className="member">
             <div className="member-text">
-              <div className="member-img set-bg" data-setbg="img/member/2.jpg"></div>
+              <div className="member-img set-bg" data-setbg="img/member/2.jpg" />
               <h2>Jackson Nash</h2>
               <span>Business Development</span>
             </div>
@@ -248,7 +248,7 @@ export const Home: React.FunctionComponent = () => {
               </a>
             </div>
             <div className="member-info">
-              <div className="member-img mf set-bg" data-setbg="img/member/2.jpg"></div>
+              <div className="member-img mf set-bg" data-setbg="img/member/2.jpg" />
               <div className="member-meta">
                 <h2>Jackson Nash</h2>
                 <span>Marketing Director</span>
@@ -261,7 +261,7 @@ export const Home: React.FunctionComponent = () => {
           </div>
           <div className="member">
             <div className="member-text">
-              <div className="member-img set-bg" data-setbg="img/member/3.jpg"></div>
+              <div className="member-img set-bg" data-setbg="img/member/3.jpg" />
               <h2>Tom Binegar</h2>
               <span>Business Development</span>
             </div>
@@ -277,7 +277,7 @@ export const Home: React.FunctionComponent = () => {
               </a>
             </div>
             <div className="member-info">
-              <div className="member-img mf set-bg" data-setbg="img/member/3.jpg"></div>
+              <div className="member-img mf set-bg" data-setbg="img/member/3.jpg" />
               <div className="member-meta">
                 <h2>Aaron Ballance</h2>
                 <span>Ceo Bitcoin</span>
@@ -290,7 +290,7 @@ export const Home: React.FunctionComponent = () => {
           </div>
           <div className="member">
             <div className="member-text">
-              <div className="member-img set-bg" data-setbg="img/member/4.jpg"></div>
+              <div className="member-img set-bg" data-setbg="img/member/4.jpg" />
               <h2>Melissa Barth</h2>
               <span>Product Manager</span>
             </div>
@@ -306,7 +306,7 @@ export const Home: React.FunctionComponent = () => {
               </a>
             </div>
             <div className="member-info">
-              <div className="member-img mf set-bg" data-setbg="img/member/4.jpg"></div>
+              <div className="member-img mf set-bg" data-setbg="img/member/4.jpg" />
               <div className="member-meta">
                 <h2>Melissa Barth</h2>
                 <span>Product Manager</span>
@@ -319,7 +319,7 @@ export const Home: React.FunctionComponent = () => {
           </div>
           <div className="member">
             <div className="member-text">
-              <div className="member-img set-bg" data-setbg="img/member/5.jpg"></div>
+              <div className="member-img set-bg" data-setbg="img/member/5.jpg" />
               <h2>Katy Abrams</h2>
               <span>Head of Design</span>
             </div>
@@ -335,7 +335,7 @@ export const Home: React.FunctionComponent = () => {
               </a>
             </div>
             <div className="member-info">
-              <div className="member-img mf set-bg" data-setbg="img/member/5.jpg"></div>
+              <div className="member-img mf set-bg" data-setbg="img/member/5.jpg" />
               <div className="member-meta">
                 <h2>Katy Abrams</h2>
                 <span>Head of Design</span>
@@ -357,20 +357,20 @@ export const Home: React.FunctionComponent = () => {
               <div className="review-text-slider owl-carousel">
                 <div className="review-text">
                   <p>
-                    "Bitcoin is exciting because it shows how cheap it can be. Bitcoin is better than currency in that you don’t have to be physically
-                    in the same place and, of course, for large transactions, currency can get pretty inconvenient.”
+                    &quot;Bitcoin is exciting because it shows how cheap it can be. Bitcoin is better than currency in that you don’t have to be
+                    physically in the same place and, of course, for large transactions, currency can get pretty inconvenient.&quot;
                   </p>
                 </div>
                 <div className="review-text">
                   <p>
-                    "Bitcoin is exciting because it shows how cheap it can be. Bitcoin is better than currency in that you don’t have to be physically
-                    in the same place and, of course, for large transactions, currency can get pretty inconvenient.”
+                    &quot;Bitcoin is exciting because it shows how cheap it can be. Bitcoin is better than currency in that you don’t have to be
+                    physically in the same place and, of course, for large transactions, currency can get pretty inconvenient.&quot;
                   </p>
                 </div>
                 <div className="review-text">
                   <p>
-                    "Bitcoin is exciting because it shows how cheap it can be. Bitcoin is better than currency in that you don’t have to be physically
-                    in the same place and, of course, for large transactions, currency can get pretty inconvenient.”
+                    &quot;Bitcoin is exciting because it shows how cheap it can be. Bitcoin is better than currency in that you don’t have to be
+                    physically in the same place and, of course, for large transactions, currency can get pretty inconvenient.&quot;
                   </p>
                 </div>
               </div>
@@ -378,21 +378,21 @@ export const Home: React.FunctionComponent = () => {
             <div className="col-lg-4 pr-0 pull-3">
               <div className="review-meta-slider owl-carousel pt-5">
                 <div className="author-meta">
-                  <div className="author-avatar set-bg" data-setbg="img/review/1.jpg"></div>
+                  <div className="author-avatar set-bg" data-setbg="img/review/1.jpg" />
                   <div className="author-name">
                     <h4>Aaron Ballance</h4>
                     <p>Ceo Bitcoin</p>
                   </div>
                 </div>
                 <div className="author-meta">
-                  <div className="author-avatar set-bg" data-setbg="img/review/2.jpg"></div>
+                  <div className="author-avatar set-bg" data-setbg="img/review/2.jpg" />
                   <div className="author-name">
                     <h4>Jackson Nash</h4>
                     <p>Head of Design</p>
                   </div>
                 </div>
                 <div className="author-meta">
-                  <div className="author-avatar set-bg" data-setbg="img/review/3.jpg"></div>
+                  <div className="author-avatar set-bg" data-setbg="img/review/3.jpg" />
                   <div className="author-name">
                     <h4>Katy Abrams</h4>
                     <p>Product Manager</p>

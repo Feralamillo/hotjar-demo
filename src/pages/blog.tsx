@@ -1,17 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { Header } from './shared/header';
 import { Footer } from './shared/footer';
 
 export const Blog: React.FunctionComponent = () => {
   return (
-    <React.Fragment>
+    <>
       <Header />
 
       <section className="page-info-section">
         <div className="container">
           <h2>News</h2>
           <div className="site-beradcamb">
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
             <span>
               <i className="fa fa-angle-right" /> News
             </span>
@@ -32,27 +34,27 @@ export const Blog: React.FunctionComponent = () => {
                     <div className="blog-text">
                       <div className="post-date">22 jan 2018</div>
                       <h4 className="blog-title">
-                        <a href="single-blog.html">This Week in Bitcoin: Up, Down and Sideways</a>
+                        <Link to="single-blog.html">This Week in Bitcoin: Up, Down and Sideways</Link>
                       </h4>
                       <div className="post-meta">
-                        <a href="/">
+                        <Link to="/">
                           <span>by</span> Admin
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-heart-o" /> 234 Likes
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-comments-o" /> 08 comments
-                        </a>
+                        </Link>
                       </div>
                       <p>
                         Bitcoin is one of the most important inventions in all of human history. For the first time ever, anyone can send or receive
                         any amount of money with anyone else, anywhere on the planet, conveniently and without restriction. It’s the dawn of a better,
                         more free world.
                       </p>
-                      <a href="/" className="readmore">
+                      <Link to="/" className="readmore">
                         Readmore <i className="fa fa-angle-double-right" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -64,18 +66,18 @@ export const Blog: React.FunctionComponent = () => {
                     <div className="blog-text">
                       <div className="post-date">22 dec 2018</div>
                       <h4 className="blog-title">
-                        <a href="single-blog.html">Blockchain Rolls Out Trading Feature for 22 States in the U.S</a>
+                        <Link to="single-blog.html">Blockchain Rolls Out Trading Feature for 22 States in the U.S</Link>
                       </h4>
                       <div className="post-meta">
-                        <a href="/">
+                        <Link to="/">
                           <span>by</span> Admin
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-heart-o" /> 234 Likes
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-comments-o" /> 08 comments
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -88,18 +90,18 @@ export const Blog: React.FunctionComponent = () => {
                     <div className="blog-text">
                       <div className="post-date">28 aug 2018</div>
                       <h4 className="blog-title">
-                        <a href="single-blog.html">This Week in Bitcoin: Up, Down and Sideways</a>
+                        <Link to="single-blog.html">This Week in Bitcoin: Up, Down and Sideways</Link>
                       </h4>
                       <div className="post-meta">
-                        <a href="/">
+                        <Link to="/">
                           <span>by</span> Admin
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-heart-o" /> 234 Likes
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-comments-o" /> 08 comments
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -112,18 +114,18 @@ export const Blog: React.FunctionComponent = () => {
                     <div className="blog-text">
                       <div className="post-date">22 jan 2018</div>
                       <h4 className="blog-title">
-                        <a href="single-blog.html">Indians Expect Clarity on Bitcoin Taxes within Days</a>
+                        <Link to="single-blog.html">Indians Expect Clarity on Bitcoin Taxes within Days</Link>
                       </h4>
                       <div className="post-meta">
-                        <a href="/">
+                        <Link to="/">
                           <span>by</span> Admin
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-heart-o" /> 234 Likes
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-comments-o" /> 08 comments
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -136,18 +138,18 @@ export const Blog: React.FunctionComponent = () => {
                     <div className="blog-text">
                       <div className="post-date">22 dec 2018</div>
                       <h4 className="blog-title">
-                        <a href="single-blog.html">Thailand Taking Steps to Regulate ICOs</a>
+                        <Link to="single-blog.html">Thailand Taking Steps to Regulate ICOs</Link>
                       </h4>
                       <div className="post-meta">
-                        <a href="/">
+                        <Link to="/">
                           <span>by</span> Admin
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-heart-o" /> 234 Likes
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-comments-o" /> 08 comments
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -160,18 +162,18 @@ export const Blog: React.FunctionComponent = () => {
                     <div className="blog-text">
                       <div className="post-date">22 jan 2018</div>
                       <h4 className="blog-title">
-                        <a href="single-blog.html">Discover Card’s 44 Million Customers Denied Crypto</a>
+                        <Link to="single-blog.html">Discover Card’s 44 Million Customers Denied Crypto</Link>
                       </h4>
                       <div className="post-meta">
-                        <a href="/">
+                        <Link to="/">
                           <span>by</span> Admin
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-heart-o" /> 234 Likes
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-comments-o" /> 08 comments
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -184,18 +186,18 @@ export const Blog: React.FunctionComponent = () => {
                     <div className="blog-text">
                       <div className="post-date">22 dec 2018</div>
                       <h4 className="blog-title">
-                        <a href="single-blog.html">Wall Street Price Manipulation? Go Long</a>
+                        <Link to="single-blog.html">Wall Street Price Manipulation? Go Long</Link>
                       </h4>
                       <div className="post-meta">
-                        <a href="/">
+                        <Link to="/">
                           <span>by</span> Admin
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-heart-o" /> 234 Likes
-                        </a>
-                        <a href="/">
+                        </Link>
+                        <Link to="/">
                           <i className="fa fa-comments-o" /> 08 comments
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -217,22 +219,22 @@ export const Blog: React.FunctionComponent = () => {
                   <h4 className="widget-title">Categories</h4>
                   <ul>
                     <li>
-                      <a href="#">Prediction markets</a>
+                      <Link to="#">Prediction markets</Link>
                     </li>
                     <li>
-                      <a href="#">Storage</a>
+                      <Link to="#">Storage</Link>
                     </li>
                     <li>
-                      <a href="#">Token exchange</a>
+                      <Link to="#">Token exchange</Link>
                     </li>
                     <li>
-                      <a href="#">Computation</a>
+                      <Link to="#">Computation</Link>
                     </li>
                     <li>
-                      <a href="#">Identity</a>
+                      <Link to="#">Identity</Link>
                     </li>
                     <li>
-                      <a href="#">ICOs</a>
+                      <Link to="#">ICOs</Link>
                     </li>
                   </ul>
                 </div>
@@ -242,25 +244,25 @@ export const Blog: React.FunctionComponent = () => {
                     <li>
                       <span>22 dec 2018</span>
                       <h5>
-                        <a href="/">Lightning and Mainnet: A Look at the Protocol’s Hype, Trials, and Error</a>
+                        <Link to="/">Lightning and Mainnet: A Look at the Protocol’s Hype, Trials, and Error</Link>
                       </h5>
                     </li>
                     <li>
                       <span>22 dec 2018</span>
                       <h5>
-                        <a href="/">This Week in Bitcoin: Japan Gets Goxxed and Iota Gets Into a Tangle</a>
+                        <Link to="/">This Week in Bitcoin: Japan Gets Goxxed and Iota Gets Into a Tangle</Link>
                       </h5>
                     </li>
                     <li>
                       <span>22 dec 2018</span>
                       <h5>
-                        <a href="/">Bitcoin Futures Report Shows Bullish Sentiment Is In the Air</a>
+                        <Link to="/">Bitcoin Futures Report Shows Bullish Sentiment Is In the Air</Link>
                       </h5>
                     </li>
                     <li>
                       <span>22 dec 2018</span>
                       <h5>
-                        <a href="/">Why Venezuela’s New National Cryptocurrency El Petro Will Fail</a>
+                        <Link to="/">Why Venezuela’s New National Cryptocurrency El Petro Will Fail</Link>
                       </h5>
                     </li>
                   </ul>
@@ -270,12 +272,12 @@ export const Blog: React.FunctionComponent = () => {
                   <ul className="twitter-widget">
                     <li>
                       <h5>Why Does The Bitcoin Price Move So Much?</h5>
-                      <a href="https://t.co/MSQVkamNwa">https://t.co/MSQVkamNwa</a>
+                      <Link to="https://t.co/MSQVkamNwa">https://t.co/MSQVkamNwa</Link>
                       <span>4 days ago</span>
                     </li>
                     <li>
                       <h5>How Can I Trade Bitcoin without an Exchange?</h5>
-                      <a href="https://t.co/MSQVkamNwa">https://t.co/MSQVkamNwa</a>
+                      <Link to="https://t.co/MSQVkamNwa">https://t.co/MSQVkamNwa</Link>
                       <span>4 days ago</span>
                     </li>
                   </ul>
@@ -283,18 +285,18 @@ export const Blog: React.FunctionComponent = () => {
                 <div className="widget">
                   <h4 className="widget-title">Follow Us</h4>
                   <div className="social">
-                    <a href="/" className="facebook">
+                    <Link to="/" className="facebook">
                       <i className="fa fa-facebook" />
-                    </a>
-                    <a href="/" className="google">
+                    </Link>
+                    <Link to="/" className="google">
                       <i className="fa fa-google-plus" />
-                    </a>
-                    <a href="/" className="instagram">
+                    </Link>
+                    <Link to="/" className="instagram">
                       <i className="fa fa-instagram" />
-                    </a>
-                    <a href="/" className="twitter">
+                    </Link>
+                    <Link to="/" className="twitter">
                       <i className="fa fa-twitter" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -321,6 +323,6 @@ export const Blog: React.FunctionComponent = () => {
       </section>
 
       <Footer />
-    </React.Fragment>
+    </>
   );
 };

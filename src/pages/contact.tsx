@@ -4,7 +4,7 @@ import { Footer } from './shared/footer';
 
 export const Contact: React.FunctionComponent = () => {
   return (
-    <React.Fragment>
+    <>
       <Header />
 
       <section className="page-info-section">
@@ -13,7 +13,7 @@ export const Contact: React.FunctionComponent = () => {
           <div className="site-beradcamb">
             <a href="/">Home</a>
             <span>
-              <i className="fa fa-angle-right"></i> Contact us
+              <i className="fa fa-angle-right" /> Contact us
             </span>
           </div>
         </div>
@@ -29,7 +29,7 @@ export const Contact: React.FunctionComponent = () => {
                     <div className="form-group">
                       <input className="check-form" type="text" placeholder="First Name*:" />
                       <span>
-                        <i className="ti-check"></i>
+                        <i className="ti-check" />
                       </span>
                     </div>
                   </div>
@@ -37,7 +37,7 @@ export const Contact: React.FunctionComponent = () => {
                     <div className="form-group">
                       <input className="check-form" type="text" placeholder="Last Name*:" />
                       <span>
-                        <i className="ti-check"></i>
+                        <i className="ti-check" />
                       </span>
                     </div>
                   </div>
@@ -45,7 +45,7 @@ export const Contact: React.FunctionComponent = () => {
                     <div className="form-group">
                       <input className="check-form" type="text" placeholder="Email Adress*:" />
                       <span>
-                        <i className="ti-check"></i>
+                        <i className="ti-check" />
                       </span>
                     </div>
                   </div>
@@ -53,13 +53,13 @@ export const Contact: React.FunctionComponent = () => {
                     <div className="form-group">
                       <input className="check-form" type="text" placeholder="Phone Number*:" />
                       <span>
-                        <i className="ti-check"></i>
+                        <i className="ti-check" />
                       </span>
                     </div>
                   </div>
                   <div className="col-md-12">
                     <div className="form-group">
-                      <textarea placeholder="Tell us about your question!"></textarea>
+                      <textarea placeholder="Tell us about your question!" />
                     </div>
                     <h5 className="mb-3">
                       Way to Contacts<span>*</span>:
@@ -68,17 +68,17 @@ export const Contact: React.FunctionComponent = () => {
                       <label className="ct-label">
                         Phone
                         <input type="radio" name="radio" />
-                        <span className="checkmark"></span>
+                        <span className="checkmark" />
                       </label>
                       <label className="ct-label">
                         Email
                         <input type="radio" name="radio" />
-                        <span className="checkmark"></span>
+                        <span className="checkmark" />
                       </label>
                       <label className="ct-label">
                         Other
                         <input type="radio" name="radio" />
-                        <span className="checkmark"></span>
+                        <span className="checkmark" />
                       </label>
                     </div>
 
@@ -88,7 +88,7 @@ export const Contact: React.FunctionComponent = () => {
               </form>
             </div>
             <div className="col-lg-5 mt-5 mt-lg-0">
-              <div className="map" id="map-canvas"></div>
+              <div className="map" id="map-canvas" />
             </div>
           </div>
         </div>
@@ -112,6 +112,6 @@ export const Contact: React.FunctionComponent = () => {
       </section>
 
       <Footer />
-    </React.Fragment>
+    </>
   );
 };
