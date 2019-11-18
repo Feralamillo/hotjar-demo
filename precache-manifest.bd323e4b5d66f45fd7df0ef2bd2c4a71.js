@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4430fb0a779d1e415c15620d2a358fa4",
+    "revision": "af6e843005f3788b40d05c0a65f6977e",
     "url": "/hotjar-demo/index.html"
   },
   {
-    "revision": "8d56cf591d7932673ee8",
+    "revision": "058f31eff67117b44bdd",
     "url": "/hotjar-demo/static/css/main.2129f5cc.chunk.css"
   },
   {
-    "revision": "91a0c70c3736d5cb8247",
-    "url": "/hotjar-demo/static/js/2.1162b166.chunk.js"
+    "revision": "b7ae8157f6035bf6bf7d",
+    "url": "/hotjar-demo/static/js/2.b15dbd06.chunk.js"
   },
   {
-    "revision": "8d56cf591d7932673ee8",
-    "url": "/hotjar-demo/static/js/main.1885ba34.chunk.js"
+    "revision": "058f31eff67117b44bdd",
+    "url": "/hotjar-demo/static/js/main.c608781b.chunk.js"
   },
   {
     "revision": "515d610db37d222fa180",

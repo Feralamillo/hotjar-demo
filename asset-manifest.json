@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hotjar-demo/static/css/main.2129f5cc.chunk.css",
-    "main.js": "/hotjar-demo/static/js/main.1885ba34.chunk.js",
-    "main.js.map": "/hotjar-demo/static/js/main.1885ba34.chunk.js.map",
+    "main.js": "/hotjar-demo/static/js/main.c608781b.chunk.js",
+    "main.js.map": "/hotjar-demo/static/js/main.c608781b.chunk.js.map",
     "runtime-main.js": "/hotjar-demo/static/js/runtime-main.da3ad002.js",
     "runtime-main.js.map": "/hotjar-demo/static/js/runtime-main.da3ad002.js.map",
-    "static/js/2.1162b166.chunk.js": "/hotjar-demo/static/js/2.1162b166.chunk.js",
-    "static/js/2.1162b166.chunk.js.map": "/hotjar-demo/static/js/2.1162b166.chunk.js.map",
+    "static/js/2.b15dbd06.chunk.js": "/hotjar-demo/static/js/2.b15dbd06.chunk.js",
+    "static/js/2.b15dbd06.chunk.js.map": "/hotjar-demo/static/js/2.b15dbd06.chunk.js.map",
     "index.html": "/hotjar-demo/index.html",
-    "precache-manifest.ff0400238476dfb8f7ffc40cb4e0b4d4.js": "/hotjar-demo/precache-manifest.ff0400238476dfb8f7ffc40cb4e0b4d4.js",
+    "precache-manifest.bd323e4b5d66f45fd7df0ef2bd2c4a71.js": "/hotjar-demo/precache-manifest.bd323e4b5d66f45fd7df0ef2bd2c4a71.js",
     "service-worker.js": "/hotjar-demo/service-worker.js",
     "static/css/main.2129f5cc.chunk.css.map": "/hotjar-demo/static/css/main.2129f5cc.chunk.css.map",
     "static/media/style.css": "/hotjar-demo/static/media/page-info-bg.6634fa22.png",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.da3ad002.js",
-    "static/js/2.1162b166.chunk.js",
+    "static/js/2.b15dbd06.chunk.js",
     "static/css/main.2129f5cc.chunk.css",
-    "static/js/main.1885ba34.chunk.js"
+    "static/js/main.c608781b.chunk.js"
   ]
 }
