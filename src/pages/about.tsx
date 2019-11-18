@@ -1,10 +1,14 @@
 import React from 'react';
 
+import { Header } from './shared/header';
+import { Footer } from './shared/footer';
+
 export const About: React.FunctionComponent = () => {
   return (
     <React.Fragment>
-      <div>About</div>
-      <div>Working</div>
+      <Header />
+
+      <Footer />
     </React.Fragment>
   );
 };
