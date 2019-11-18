@@ -7,7 +7,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const tagManagerArgs = {
-  gtmId: process.env.GTM || '',
+  gtmId: process.env.GTM || 'GTM-N535FZF',
 };
 
 TagManager.initialize(tagManagerArgs);
